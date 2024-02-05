@@ -33,9 +33,13 @@
         background-color: rgb(12, 37, 49);
         color: white;
     }
-    img{
+
+    img {
         height: 255px;
         width: 100%;
+    }
+    .progress{
+        height: 30px;
     }
 </style>
 
@@ -126,7 +130,34 @@
     </div>
     <div class="container">
         <div class="row mt-5">
-            <h1 class="text-primary text-center h1">Acerca de</h1>
+            <div class="col-sm-4 p-5">
+                <img src="img/logo-removebg-preview.png" class="d-block w-100 mt-5">
+                <p class="h3 fw-light text-center mt-4">Zeta-Dev</p>
+            </div>
+            <div class="col-sm-8 d-flex flex-column mb-3">
+                <h1 class="text-primary h1 mb-5">Acerca de</h1>
+                <p class="fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nisi
+                    perspiciatis praesentium nam
+                    quos cumque voluptate sit amet consectetur sit amet consectetur.</p>
+                <p class="fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nisi
+                    perspiciatis praesentium nam
+                    quos cumque voluptate sit amet consectetur sit amet consectetur.</p>
+                <p class="h4 text-primary mb-3">HTML</p>
+                <div class="progress" style="border-radius: 0%; background-color: rgb(68, 68, 245);" role="progressbar"
+                    aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 90%;border-radius: 0%;"><span class="text-start p-4">90%</span></div>
+                </div>
+                <p class="h4 text-primary mb-3 mt-3">CSS</p>
+                <div class="progress" style="border-radius: 0%; background-color: rgb(68, 68, 245);" role="progressbar"
+                    aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 95%;border-radius: 0%;"><span class="text-start p-4">95%</span></div>
+                </div>
+                <p class="h4 text-primary mb-3 mt-3">JS</p>
+                <div class="progress" style="border-radius: 0%; background-color: rgb(68, 68, 245);" role="progressbar"
+                    aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 85%;border-radius: 0%;"><span class="text-start p-4">85%</span></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
