@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<style>
+    img {
+        max-height: 200px;
+        width: 100%;
+    }
+
+    .zoom-effect:hover {
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .progress{
+        height: 25px;
+    }
+    .nav-link:hover{
+        background-color: red;
+    }
+</style>
+
+<body class="bg-info-subtle">
+    <div class="container">
+        <!--Navegador-->
+        <div class="row mt-5">
+            <nav class="navbar navbar-expand-lg bg-white p-0">
+                <div class="container-fluid">
+                    <a class="navbar-brand">
+                        <h2><span class="h2 text-primary">ZETA</span><i class="bi bi-dot text-secondary"></i><span
+                                class="text-secondary">Desarrollo Web</span></h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarbarra"
+                        aria-controls="navbarbarra" aria-expanded="false" arial-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse p-0" id="navbarbarra">
+                    <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+                        <li class="nav-item text-center bg-danger">
+                            <a class="nav-link" aria-current="page">Portafolio
+                                <i class="bi bi-suitcase-lg-fill m-4"></i></a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" aria-current="page">Acerca de
+                                <i class="bi bi-person-fill m-4"></i></a>
+                        </li>
+                        <li class="nav-item text-center bg-danger p-0">
+                            <a class="nav-link" aria-current="page">contactoa
+                                <i class="bi bi-envelope-fill m-4"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="carousel slide p-0" id="carouselBg">
+                <div class="carousel-inner">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselBg" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselBg" data-bs-slide-to="1" aria-current="true"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselBg" data-bs-slide-to="2" aria-current="true"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="../Zeta - Pagina web/img/slider1.jpeg" class=" d-block w-100" alt="Imagen Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Zeta - Pagina web/img/slider2.jpeg" class="d-block w-100" alt="Imagen Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Zeta - Pagina web/img/slider3.jpeg" class="d-block w-100" alt="Imagen Slide 3">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBg"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselBg"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--Portafolio-->
+        <div class="container p-0 mt-5">
+            <div class="row bg-white">
+                <hr class="border border-primary border-3 opacity-75 m-0">
+                <h1 class="text-primary text-center mt-5">Portafolio</h1>
+                <div class="container">
+                    <div class="row m-3">
+                        <div class="col-md-4 mt-3 zoom-effect">
+                            <img src="../Zeta - Pagina web/img/imagen1.jpeg" class="img-fluid w-100 h-100">
+                        </div>
+                        <div class="col-md-8 mt-3 zoom-effect">
+                            <img src="../Zeta - Pagina web/img/imagen2.jpeg" class="img-fluid w-100 h-100">
+                        </div>
+                        <div class="col-md-8 mt-3 zoom-effect">
+                            <img src="../Zeta - Pagina web/img/imagen3.jpeg" class="img-fluid w-100 h-100">
+                        </div>
+                        <div class="col-md-4 mt-3 zoom-effect">
+                            <img src="../Zeta - Pagina web/img/imagen4.jpeg" class="img-fluid w-100 h-100">
+                        </div>
+                        <div class="col-md-4 mt-3 zoom-effect">
+                            <img src="../Zeta - Pagina web/img/imagen5.jpeg" class="img-fluid w-100 h-100">
+                        </div>
+                        <div class="col-md-4 mt-3 zoom-effect">
+                            <img src="../Zeta - Pagina web/img/imagen6.jpeg" class="img-fluid w-100 h-100">
+                        </div>
+                        <div class="col-md-4 mt-3 zoom-effect">
+                            <img src="../Zeta - Pagina web/img/imagen7.jpeg" class="img-fluid w-100 h-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Acerca de-->
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-sm-4 p-5">
+                    <img src="../Zeta - Pagina web/img/logo-removebg-preview.png" class="rounded-circle d-block w-100 mt-5">
+                    <p class="h4 fw-light text-center mt-4">Zeta-Dev</p>
+                </div>
+                <div class="col-sm-8 d-flex flex-column mb-3">
+                    <h1 class="text-primary h1 mb-5 fw-light">Acerca de</h1>
+                    <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus veniam
+                        ut totam. Explicabo, a magni doloribus fugit tempore odio beatae laborum facilis suscipit labore
+                        ipsa inventore ex, excepturi nihil?</p>
+                    <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus veniam
+                        ut totam. Explicabo, a magni doloribus fugit tempore odio beatae laborum facilis suscipit labore
+                        ipsa inventore ex, excepturi nihil?</p>
+                    <p class="h6 text-primary mt-3 mb-3">HTML</p>
+                    <div class="progress" style="border-radius: 0%; background-color: rgb(68, 68, 245);"
+                        role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100">
+                        <div class="progress-bar" style="width: 90%;border-radius: 0%;"><span
+                                class="text-start p-4">90%</span></div>
+                    </div>
+                    <p class="h6 text-primary mt-3 mb-3">CSS</p>
+                    <div class="progress" style="border-radius: 0%; background-color: rgb(68, 68, 245);"
+                        role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100">
+                        <div class="progress-bar" style="width: 95%;border-radius: 0%;"><span
+                                class="text-start p-4">95%</span></div>
+                    </div>
+                    <p class="h6 text-primary mt-3 mb-3">JS</p>
+                    <div class="progress" style="border-radius: 0%; background-color: rgb(68, 68, 245);"
+                        role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100">
+                        <div class="progress-bar" style="width: 85%;border-radius: 0%;"><span
+                                class="text-start p-4">85%</span></div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
