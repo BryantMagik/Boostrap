@@ -23,10 +23,12 @@
         transform: scale(1.1);
         transition: transform 0.5s ease;
     }
-    .progress{
+
+    .progress {
         height: 25px;
     }
-    .nav-link:hover{
+
+    .nav-link:hover {
         background-color: red;
     }
 </style>
@@ -49,11 +51,11 @@
                 <div class="collapse navbar-collapse p-0" id="navbarbarra">
                     <ul class="navbar-nav me-auto mb-0 mb-lg-0">
                         <li class="nav-item text-center bg-danger">
-                            <a class="nav-link" aria-current="page">Portafolio
+                            <a class="nav-link" aria-current="page" href="#scrollportfolio">Portafolio
                                 <i class="bi bi-suitcase-lg-fill m-4"></i></a>
                         </li>
                         <li class="nav-item text-center">
-                            <a class="nav-link" aria-current="page">Acerca de
+                            <a class="nav-link" aria-current="page" href="#acercade">Acerca de
                                 <i class="bi bi-person-fill m-4"></i></a>
                         </li>
                         <li class="nav-item text-center bg-danger p-0">
@@ -97,9 +99,9 @@
         </div>
         <!--Portafolio-->
         <div class="container p-0 mt-5">
-            <div class="row bg-white">
+            <div class="row bg-white" data-bs-spy="scroll">
                 <hr class="border border-primary border-3 opacity-75 m-0">
-                <h1 class="text-primary text-center mt-5">Portafolio</h1>
+                <h1 class="text-primary text-center mt-5" id="scrollportfolio">Portafolio</h1>
                 <div class="container">
                     <div class="row m-3">
                         <div class="col-md-4 mt-3 zoom-effect">
@@ -128,14 +130,15 @@
             </div>
         </div>
         <!-- Acerca de-->
-        <div class="container">
+        <div class="container" data-bs-spy="scroll">
             <div class="row mt-5">
                 <div class="col-sm-4 p-5">
-                    <img src="../Zeta - Pagina web/img/logo-removebg-preview.png" class="rounded-circle d-block w-100 mt-5">
+                    <img src="../Zeta - Pagina web/img/logo-removebg-preview.png"
+                        class="rounded-circle d-block w-100 mt-5">
                     <p class="h4 fw-light text-center mt-4">Zeta-Dev</p>
                 </div>
                 <div class="col-sm-8 d-flex flex-column mb-3">
-                    <h1 class="text-primary h1 mb-5 fw-light">Acerca de</h1>
+                    <h1 class="text-primary h1 mb-5 fw-light" id="acercade">Acerca de</h1>
                     <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus veniam
                         ut totam. Explicabo, a magni doloribus fugit tempore odio beatae laborum facilis suscipit labore
                         ipsa inventore ex, excepturi nihil?</p>
